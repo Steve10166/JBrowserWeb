@@ -134,19 +134,6 @@
   },
   "tracks": [
     {
-      "type": "PhylogeneticTreeTrack",
-      "trackId": "phylogenetic_tree",
-      "name": "PoxVirus Phylogenetic Tree",
-      "assemblyNames": ["Camelpox virus_AF438165.1"],
-      "adapter": {
-        "type": "PhylogeneticTreeAdapter",
-        "treeData": {
-          "uri": "phylogenetic.nwk",
-          "locationType": "UriLocation"
-        }
-      }
-    },
-    {
       "type": "FeatureTrack",
       "trackId": "Camelpox virus_AF438165.1_sorted.gff",
       "name": "Camelpox virus_AF438165.1_sorted.gff",
@@ -330,4 +317,5 @@
       ]
     }
   ]
+
 }
