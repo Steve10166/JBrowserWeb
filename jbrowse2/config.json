@@ -289,12 +289,6 @@
     }
   ],
   "views": [
-    {
-      "type": "PhylogeneticTreeView",
-      "viewId": "phylogenetic_tree_view",
-      "name": "PoxVirus Tree Viewer",
-      "tracks": ["phylogenetic_tree"]
-    }
   ],
   "aggregateTextSearchAdapters": [
     {
