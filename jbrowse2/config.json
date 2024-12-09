@@ -248,28 +248,6 @@
   "tracks": [
     {
       "type": "FeatureTrack",
-      "trackId": "genes.gff",
-      "name": "genes.gff",
-      "adapter": {
-        "type": "Gff3TabixAdapter",
-        "gffGzLocation": {
-          "uri": "genes.gff.gz",
-          "locationType": "UriLocation"
-        },
-        "index": {
-          "location": {
-            "uri": "genes.gff.gz.tbi",
-            "locationType": "UriLocation"
-          },
-          "indexType": "TBI"
-        }
-      },
-      "assemblyNames": [
-        "hg38"
-      ]
-    },
-    {
-      "type": "FeatureTrack",
       "trackId": "Buffalopox virus_MK239755.1_sorted.gff",
       "name": "Buffalopox virus_MK239755.1_sorted.gff",
       "adapter": {
