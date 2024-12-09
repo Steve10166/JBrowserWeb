@@ -1,0 +1,619 @@
+{
+  "assemblies": [
+    {
+      "name": "hg38",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "hg38-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "hg38.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "hg38.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "Monkeypox_virus_KJ642619.1",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Monkeypox_virus_KJ642619.1-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "Monkeypox_virus_KJ642619.1.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "Monkeypox_virus_KJ642619.1.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "Variola virus_PP405600.1",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Variola virus_PP405600.1-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "Variola virus_PP405600.1.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "Variola virus_PP405600.1.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "Cowpox virus_KY463519.1",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Cowpox virus_KY463519.1-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "Cowpox virus_KY463519.1.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "Cowpox virus_KY463519.1.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "Camelpox virus_AF438165.1",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Camelpox virus_AF438165.1-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "Camelpox virus_AF438165.1.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "Camelpox virus_AF438165.1.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "Swinepox virus_NC_003389.1",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Swinepox virus_NC_003389.1-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "Swinepox virus_NC_003389.1.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "Swinepox virus_NC_003389.1.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "Sheeppox virus_AY077832.1",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Sheeppox virus_AY077832.1-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "Sheeppox virus_AY077832.1.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "Sheeppox virus_AY077832.1.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "Ectromelia virus_NC_004105.1",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Ectromelia virus_NC_004105.1-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "Ectromelia virus_NC_004105.1.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "Ectromelia virus_NC_004105.1.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "Fowlpox virus_MG702259.1",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Fowlpox virus_MG702259.1-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "Fowlpox virus_MG702259.1.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "Fowlpox virus_MG702259.1.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "Rabbitpox virus_AY484669.1",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Rabbitpox virus_AY484669.1-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "Rabbitpox virus_AY484669.1.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "Rabbitpox virus_AY484669.1.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "Horsepox virus_NC_066642.1",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Horsepox virus_NC_066642.1-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "Horsepox virus_NC_066642.1.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "Horsepox virus_NC_066642.1.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "Salmon Gill Poxvirus_NC_027707.1",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Salmon Gill Poxvirus_NC_027707.1-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "Salmon Gill Poxvirus_NC_027707.1.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "Salmon Gill Poxvirus_NC_027707.1.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "Buffalopox virus_MK239755.1",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Buffalopox virus_MK239755.1-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "Buffalopox virus_MK239755.1.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "Buffalopox virus_MK239755.1.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "Deerpox virus_NC_006966.1",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Deerpox virus_NC_006966.1-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "Deerpox virus_NC_006966.1.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "Deerpox virus_NC_006966.1.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    }
+  ],
+  "configuration": {},
+  "connections": [],
+  "defaultSession": {
+    "name": "New Session",
+    "view": {
+      "id": "linearGenomeView",
+      "type": "LinearGenomeView",
+      "tracks": []
+    }
+  },
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "genes.gff",
+      "name": "genes.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "genes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "genes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "hg38"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Buffalopox virus_MK239755.1_sorted.gff",
+      "name": "Buffalopox virus_MK239755.1_sorted.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "Buffalopox virus_MK239755.1_sorted.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "Buffalopox virus_MK239755.1_sorted.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "Buffalopox virus_MK239755.1"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Camelpox virus_AF438165.1_sorted.gff",
+      "name": "Camelpox virus_AF438165.1_sorted.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "Camelpox virus_AF438165.1_sorted.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "Camelpox virus_AF438165.1_sorted.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "Camelpox virus_AF438165.1"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Cowpox virus_KY463519.1_sorted.gff",
+      "name": "Cowpox virus_KY463519.1_sorted.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "Cowpox virus_KY463519.1_sorted.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "Cowpox virus_KY463519.1_sorted.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "Cowpox virus_KY463519.1"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Deerpox virus_NC_006966.1_sorted.gff",
+      "name": "Deerpox virus_NC_006966.1_sorted.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "Deerpox virus_NC_006966.1_sorted.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "Deerpox virus_NC_006966.1_sorted.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "Deerpox virus_NC_006966.1"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Ectromelia virus_NC_004105.1_sorted.gff",
+      "name": "Ectromelia virus_NC_004105.1_sorted.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "Ectromelia virus_NC_004105.1_sorted.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "Ectromelia virus_NC_004105.1_sorted.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "Ectromelia virus_NC_004105.1"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Fowlpox virus_MG702259.1_sorted.gff",
+      "name": "Fowlpox virus_MG702259.1_sorted.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "Fowlpox virus_MG702259.1_sorted.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "Fowlpox virus_MG702259.1_sorted.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "Fowlpox virus_MG702259.1"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Homo_sapiens.GRCh38.110.chr_sorted.gff",
+      "name": "Homo_sapiens.GRCh38.110.chr_sorted.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "Homo_sapiens.GRCh38.110.chr_sorted.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "Homo_sapiens.GRCh38.110.chr_sorted.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "Homo_sapiens.GRCh38.110.chr"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Horsepox virus_NC_066642.1_sorted.gff",
+      "name": "Horsepox virus_NC_066642.1_sorted.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "Horsepox virus_NC_066642.1_sorted.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "Horsepox virus_NC_066642.1_sorted.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "Horsepox virus_NC_066642.1"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Monkeypox_virus_KJ642619.1_sorted.gff",
+      "name": "Monkeypox_virus_KJ642619.1_sorted.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "Monkeypox_virus_KJ642619.1_sorted.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "Monkeypox_virus_KJ642619.1_sorted.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "Monkeypox_virus_KJ642619.1"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Rabbitpox virus_AY484669.1_sorted.gff",
+      "name": "Rabbitpox virus_AY484669.1_sorted.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "Rabbitpox virus_AY484669.1_sorted.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "Rabbitpox virus_AY484669.1_sorted.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "Rabbitpox virus_AY484669.1"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Salmon Gill Poxvirus_NC_027707.1_sorted.gff",
+      "name": "Salmon Gill Poxvirus_NC_027707.1_sorted.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "Salmon Gill Poxvirus_NC_027707.1_sorted.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "Salmon Gill Poxvirus_NC_027707.1_sorted.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "Salmon Gill Poxvirus_NC_027707.1"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Sheeppox virus_AY077832.1_sorted.gff",
+      "name": "Sheeppox virus_AY077832.1_sorted.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "Sheeppox virus_AY077832.1_sorted.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "Sheeppox virus_AY077832.1_sorted.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "Sheeppox virus_AY077832.1"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Swinepox virus_NC_003389.1_sorted.gff",
+      "name": "Swinepox virus_NC_003389.1_sorted.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "Swinepox virus_NC_003389.1_sorted.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "Swinepox virus_NC_003389.1_sorted.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "Swinepox virus_NC_003389.1"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Variola virus_PP405600.1_sorted.gff",
+      "name": "Variola virus_PP405600.1_sorted.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "Variola virus_PP405600.1_sorted.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "Variola virus_PP405600.1_sorted.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "Variola virus_PP405600.1"
+      ]
+    }
+  ],
+  "aggregateTextSearchAdapters": [
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "hg38-index",
+      "ixFilePath": {
+        "uri": "trix/hg38.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/hg38.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/hg38_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "hg38"
+      ]
+    }
+  ]
+}
