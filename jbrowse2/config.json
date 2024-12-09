@@ -288,8 +288,6 @@
       ]
     }
   ],
-  "views": [
-  ],
   "aggregateTextSearchAdapters": [
     {
       "type": "TrixTextSearchAdapter",
@@ -311,5 +309,4 @@
       ]
     }
   ]
-
 }
