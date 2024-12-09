@@ -134,6 +134,19 @@
   },
   "tracks": [
     {
+      "type": "PhylogeneticTreeTrack",
+      "trackId": "phylogenetic_tree",
+      "name": "PoxVirus Phylogenetic Tree",
+      "assemblyNames": [],
+      "adapter": {
+        "type": "PhylogeneticTreeAdapter",
+        "treeData": {
+          "uri": "phylogenetic.nwk",
+          "locationType": "UriLocation"
+        }
+      }
+    },
+    {
       "type": "FeatureTrack",
       "trackId": "Camelpox virus_AF438165.1_sorted.gff",
       "name": "Camelpox virus_AF438165.1_sorted.gff",
@@ -286,6 +299,14 @@
       "assemblyNames": [
         "Variola virus_PP405600.1"
       ]
+    }
+  ],
+  "views": [
+    {
+      "type": "PhylogeneticTreeView",
+      "viewId": "phylogenetic_tree_view",
+      "name": "PoxVirus Tree Viewer",
+      "tracks": ["phylogenetic_tree"]
     }
   ],
   "aggregateTextSearchAdapters": [
